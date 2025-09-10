@@ -2,7 +2,13 @@
     width: 10px;
     height: 10px;
 }
-.carousel-inner img{
-    height: 550px;
+.carousel-inner img {
+  height: 530px;         /* Mantienes la altura */
+  width: auto;           /* Ajusta el ancho automáticamente */
+  max-width: 95%;        /* Aquí puedes ajustar el porcentaje para dar más espacio a los lados */
+  margin-left: auto;     /* Centra la imagen horizontalmente */
+  margin-right: auto;    /* Centra la imagen horizontalmente */
+  display: block;        /* Para asegurarse que se ajuste al contenedor */
 }
+
 
